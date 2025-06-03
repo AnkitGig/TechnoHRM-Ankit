@@ -587,7 +587,8 @@ input[type="reset"] {
 }
 
 .sidebar-logo {
-  max-height: 40px;
+ width: 142px;
+  height: 56px;
 }
 
 .sidebar-close-btn {
@@ -661,6 +662,22 @@ input[type="reset"] {
   color: #CC5F5F;
 }
 
+.sidebar-nav-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  transition: filter 0.3s;
+}
+
+.icon-active {
+  filter: brightness(0) invert(1);
+  /* Makes it white */
+}
+
+.icon-inactive {
+  filter: brightness(0) invert(0);
+  /* Keeps it black */
+}
 
 /* Responsive Behavior */
 @media (min-width: 768px) {
@@ -719,7 +736,7 @@ input[type="reset"] {
   padding: 0.5rem 0.75rem 0.5rem 2.25rem;
   border: 1px solid var(--color-gray-300);
   font-weight: 600;
-  color:#68626280;
+  color: #68626280;
 }
 
 .search-input:focus {
