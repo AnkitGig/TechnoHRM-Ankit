@@ -1092,8 +1092,8 @@ input[type="reset"] {
 }
 
 .earnings-icon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: var(--border-radius);
   background-color: var(--color-blue-100);
   display: flex;
@@ -1107,6 +1107,7 @@ input[type="reset"] {
 .earnings-icon-symbol {
   color: var(--color-primary);
   font-weight: 700;
+  width: 22px;
 }
 
 .earnings-details {
@@ -1127,6 +1128,7 @@ input[type="reset"] {
   line-height: 100%;
   letter-spacing: 0%;
   color: #747474;
+    margin-top: 9px;
 }
 
 /* Holidays List */

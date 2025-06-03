@@ -126,10 +126,11 @@ const Dashboard = ({ currentPage, setCurrentPage }) => {
           {/* Header */}
         <div className="dashboard-header">
   <div className="dashboard-title-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+  
     <img 
       src={Vector} 
       alt="Dashboard Icon" 
-      style={{ width: '19px', height: '19px' }} 
+      style={{ width: '19px', height: '19px'  }} 
     />
     <div>
       <h1 className="dashboard-title">Dashboard</h1>
