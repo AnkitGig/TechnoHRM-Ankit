@@ -1,5 +1,5 @@
 import { useState } from "react";
-import img1 from '../images/image (1).png'
+import  Data from '../images/image (1).png'
 import logo from '../images/logo.png'
 import { Link } from "react-router-dom";
 export default function LoginPage() {
@@ -37,12 +37,12 @@ export default function LoginPage() {
 
      <div className="white-header">
         <div className="header-logo-container">
-           <img src={logo} alt="logo Image"/>
+          <img src={logo} alt="Company logo"/>
         </div>
       </div>
     <div className="login-container">
       {/* Background Image */}
-      <img src={img1} alt="Office background" fill className="background-image" priority />
+      <img src={Data} alt="Office background" fill className="background-image" priority />
       <div className="background-overlay"></div>
 
 
