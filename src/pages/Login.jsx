@@ -37,12 +37,12 @@ export default function LoginPage() {
 
      <div className="white-header">
         <div className="header-logo-container">
-           <img src={`${logo}`} alt="logo Image"/>
+           <img src={logo} alt="logo Image"/>
         </div>
       </div>
     <div className="login-container">
       {/* Background Image */}
-      <img src={`${img1}`} alt="Office background" fill className="background-image" priority />
+      <img src={img1} alt="Office background" fill className="background-image" priority />
       <div className="background-overlay"></div>
 
 
