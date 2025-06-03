@@ -1,7 +1,6 @@
 // src/pages/Profile.js
 import React, { useState } from "react";
 import Sidebar from "../component/SideBar";
-import WelcomeBanner from "../component/WelcomeBanner";
 const Profile = ({ currentPage, setCurrentPage }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
