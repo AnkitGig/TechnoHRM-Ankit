@@ -185,7 +185,7 @@ export default function LoginPage() {
             {/* Recover Password Link (only for login) */}
             {activeTab === "login" && (
               <div className="recover-password">
-                <a href="#">Recover Password</a>
+                <a href="/dashboard">Recover Password</a>
               </div>
             )}
 
