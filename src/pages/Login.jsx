@@ -38,11 +38,6 @@ export default function LoginPage() {
      <div className="white-header">
         <div className="header-logo-container">
            <img src={`${logo}`} alt="logo Image"/>
-          {/* <div className="header-logo-text">
-            <div className="header-logo-title">TECHNORIZEN</div>
-            <div className="header-logo-subtitle">SOFTWARE SOLUTIONS PVT LTD</div>
-            <div className="header-logo-tagline">Quality & Technology</div>
-          </div> */}
         </div>
       </div>
     <div className="login-container">
