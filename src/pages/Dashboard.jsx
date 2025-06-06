@@ -5,7 +5,7 @@ import WelcomeBanner from "../component/WelcomeBanner";
 import AttendanceSummary from "../component/AttendanceSummary";
 import EarningsSummary from "../component/EarningsSummary";
 import HolidaysList from "../component/HolidaysList";
-import Vector from "../../src/images/Vector.png"
+import Vector from "../../src/images/DashboarD.png";
 const Dashboard = ({ currentPage, setCurrentPage }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
@@ -47,7 +47,7 @@ const Dashboard = ({ currentPage, setCurrentPage }) => {
                   <line x1="3" y1="18" x2="21" y2="18" />
                 </svg>
               </button>
-              <div className="search-container">
+              {/* <div className="search-container">
                 <svg
                   className="search-icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ const Dashboard = ({ currentPage, setCurrentPage }) => {
                   placeholder="Search Employee by Name or ID"
                   className="search-input"
                 />
-              </div>
+              </div> */}
             </div>
             <div className="header-actions">
               <button className="header-action-btn">
@@ -130,7 +130,7 @@ const Dashboard = ({ currentPage, setCurrentPage }) => {
     <img 
       src={Vector} 
       alt="Dashboard Icon" 
-      style={{ width: '19px', height: '19px'  }} 
+      style={{ width: '35px', height: '35px'  }} 
     />
     <div>
       <h1 className="dashboard-title">Dashboard</h1>

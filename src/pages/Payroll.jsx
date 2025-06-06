@@ -42,7 +42,7 @@ const Payroll = ({ currentPage, setCurrentPage }) => {
                   <line x1="3" y1="18" x2="21" y2="18" />
                 </svg>
               </button>
-              <div className="search-container">
+              {/* <div className="search-container">
                 <svg
                   className="search-icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const Payroll = ({ currentPage, setCurrentPage }) => {
                   placeholder="Search Employee by Name or ID"
                   className="search-input"
                 />
-              </div>
+              </div> */}
             </div>
             <div className="header-actions">
               <button className="header-action-btn">
